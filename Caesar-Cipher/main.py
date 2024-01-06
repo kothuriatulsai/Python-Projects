@@ -27,6 +27,7 @@ while ref:
   shift = int(input("Type the shift number:\n"))
   ref = False
 
+  
   caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
   repeat = (input("Type 'yes' if you want to go again\n")).lower()
   if repeat == "yes":
