@@ -6,7 +6,6 @@ print("Welcome to Predict The Number!\nI'm thinking of a number between 1 to 100
 import random
 
 num = random.randint(1,100)
-print(num)
 
 game_diff = input("Choose a difficulty. Type 'easy' or 'hard': ")
 
